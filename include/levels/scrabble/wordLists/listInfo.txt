@@ -1,0 +1,8 @@
+101 2 letter words
+1015 3 letter words
+4030 4 letter words
+8938 5 letter words
+15788 6 letter words
+24029 7 letter words
+29766 8 letter words
+83667 total words

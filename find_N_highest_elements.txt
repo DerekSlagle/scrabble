@@ -1,0 +1,132 @@
+#include<iostream>
+#include<vector>
+//#include<fstream>
+//#include<string>
+#include<algorithm>
+//#include <cstdlib> //for rand and srand
+//#include <iomanip>
+//#include <ctime> // time function for seed value
+//#include<memory>
+
+using namespace std;
+
+void f()// find 2 highest
+{
+    int a[] = {2,4,7,3,8,6,1,9,5};
+    int sz = sizeof(a)/sizeof(a[0]);
+    int Lg[2];
+    Lg[0] = Lg[1] = a[0];
+    for(int i=1; i<sz; ++i)
+    {
+        if( a[i] > Lg[0] )
+        {
+            Lg[1] = Lg[0];
+            Lg[0] = a[i];
+        }
+        else if( a[i] > Lg[1] )
+            Lg[1] = a[i];
+    }
+    cout << "Lg0 = " << Lg[0] << "  Lg1 = " << Lg[1] << '\n';
+}
+
+void g()// find 3 highest
+{
+    int a[] = {2,4,7,3,8,6,1,9,5};
+    int sz = sizeof(a)/sizeof(a[0]);
+    int Lg[3];
+    Lg[0] = Lg[1] = Lg[2] = a[0];
+    for(int i=1; i<sz; ++i)
+    {
+        if( a[i] > Lg[0] )
+        {
+            Lg[2] = Lg[1];
+            Lg[1] = Lg[0];
+            Lg[0] = a[i];
+        }
+        else if( a[i] > Lg[1] )
+        {
+            Lg[2] = Lg[1];
+            Lg[1] = a[i];
+        }
+        else if( a[i] > Lg[2] )
+            Lg[2] = a[i];
+    }
+    cout << "Lg0 = " << Lg[0] << "  Lg1 = " << Lg[1] << "  Lg2 = " << Lg[2] << '\n';
+}
+
+int main()// find mxSz highest
+{
+    const int aSz = 50;
+    int a[aSz];
+    int i=0;
+    for(auto& x: a) x = ++i;// values in a are 1-50
+    random_shuffle( a, a+aSz );
+    for(auto x: a) cout << x << ' '; cout << '\n';// show the shuffled values
+
+    // find least a.
+    // If we just go with all maxs' = a[0] and a[0] is high, we won't get the lower value maxs'
+    int least = a[0];
+    for( int i=1; i<aSz; ++i )
+        if( a[i] < least ) least = a[i];
+
+    int mxSz;// the number of highest values to find
+    cout << "How many largest values? (1 to " << aSz << "): ";
+    cin >> mxSz;
+    // the maxs': mx[0] = highest max, mx[mxSz-1] = lowest max
+    vector<int> mx( mxSz, least );// Initialize all = least
+
+    for(int i=0; i<aSz; ++i)// for each element in a
+    {
+        for(int j=0; j<mxSz; ++j)// for each max starting with the highest
+        {
+            if( a[i] > mx[j] )// 1st one we hit only (hence the break below)
+            {
+                for(int k=mxSz-1; k>j; --k)// copy them downward from the highest max
+                   mx[k] = mx[k-1];
+                mx[j] = a[i];// the one we hit
+                break;
+            }
+        }
+    }
+
+    cout << "\nThe " << mxSz << " highest values are:\n";
+    for(auto x: mx) cout << x << ' '; cout << '\n';
+
+    cout << endl;
+    return 0;
+}
+
+
+// version without array
+int main()
+{
+    const int aSz = 50;
+
+    int N;// the number of highest values to find
+    std::cout << "How many largest values? (1 to " << aSz << "): ";
+    std::cin >> N;
+    // the maxs': mx[0] = highest max, mx[N-1] = lowest max
+    std::vector<int> mx( N, 0 );// Initialize all = 0
+
+    for(int i=0; i<aSz; ++i)// for each element in a
+    {
+        int value = rand()%99 + 1;// generate values on the fly
+        std::cout << value << ' ';
+
+        for(int j=0; j<N; ++j)// for each max starting with the highest
+        {
+            if( value > mx[j] )// 1st one we hit only (hence the break below)
+            {
+                for(int k=N-1; k>j; --k)// copy them downward from the highest max
+                   mx[k] = mx[k-1];
+                mx[j] = value;// the one we hit
+                break;
+            }
+        }
+    }
+
+    std::cout << "\nThe " << N << " highest values are:\n";
+    for(auto x: mx) std::cout << x << ' '; std::cout << '\n';
+
+    return 0;
+}

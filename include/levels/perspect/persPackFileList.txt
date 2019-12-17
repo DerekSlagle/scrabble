@@ -1,0 +1,6 @@
+200 500 1000
+
+persMat/persPackPyramid.txt
+persMat/persPackDiamond.txt
+persMat/persPackHouse.txt
+persMat/persPackDiamond2.txt

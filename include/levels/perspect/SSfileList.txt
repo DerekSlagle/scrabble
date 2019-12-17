@@ -1,0 +1,8 @@
+cars/palmTreeA_SSdata.txt
+cars/track_SSdata.txt
+tiles1_SSdata.txt
+cars/minivan_SSdata.txt
+buildings/blockHouses_SSdata.txt
+buildings/historicBuilding_SSdata.txt
+buildings/mansion_SSdata.txt
+runningMan_SSdata.txt

@@ -1,0 +1,14 @@
+images/cars/SubaruBRZ.png
+images/cars/wheelHankook19inch.png
+1.2 0.2
+
+600 640
+300 140
+190 72
+-182 72
+56
+
+1000 0.15
+10.0 20.0
+
+L

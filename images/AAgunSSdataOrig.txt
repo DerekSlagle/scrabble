@@ -1,0 +1,12 @@
+images/AAgunSS.png
+
+1
+
+6
+250 19 330 330 top
+880 50 370 390 back
+516 257 412 373 left
+56 592 414 358 right
+857 595 441 362 front
+
+473 710 230 48 barrel

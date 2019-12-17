@@ -1,0 +1,11 @@
+include/leg_types/paths/ovala.txt     N
+include/leg_types/paths/fig8no_e.txt  N
+include/leg_types/paths/fig8a.txt     N
+include/leg_types/paths/triangleA.txt N
+include/leg_types/paths/circleA.txt   N
+
+include/leg_types/paths/sinuA.txt    F
+include/leg_types/paths/spiralA.txt  F
+include/leg_types/paths/spiralB.txt  F
+include/leg_types/paths/ellipseP.txt F
+include/leg_types/paths/cubicA.txt   F

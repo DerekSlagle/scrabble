@@ -1,0 +1,6 @@
+include/leg_types/paths/sinuA.txt  sinuA  F
+include/leg_types/paths/spiralA.txt  spiralA F
+include/leg_types/paths/spiralB.txt  spiralB F
+include/leg_types/paths/ellipseP.txt  ellipP F
+include/leg_types/paths/ellipseA.txt  ellipA F
+include/leg_types/paths/cubicA.txt  cubicA F

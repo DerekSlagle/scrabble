@@ -1,0 +1,6 @@
+images/cars/palmTreeA.png
+
+1
+
+1
+0 0 292 600

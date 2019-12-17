@@ -1,0 +1,9 @@
+images/dialFace1.png
+images/dialNeedles.jpg
+
+817 69 18 200
+165.0 0.3 0.3
+180.0 180.0
+
+-0.5 0.5 -60.0 60.0
+0.0 -20.0

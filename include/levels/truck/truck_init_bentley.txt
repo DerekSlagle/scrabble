@@ -1,0 +1,14 @@
+images/cars/Bentley-Bentayga.png
+images/cars/wheelHankook19inch.png
+0.6 0.2
+
+600 640
+300 140
+190 80
+-174 80
+56
+
+1000 0.15
+5.0 5.0
+
+R

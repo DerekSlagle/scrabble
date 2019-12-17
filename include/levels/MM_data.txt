@@ -1,0 +1,16 @@
+1280 720
+
+150.0 160.0
+60.0
+30
+0 255 0
+255 0 0
+
+7
+1      Scrabble
+2      Buttons
+3      Truck
+4      Paths
+5      Squads
+6      Perspective
+7      Track

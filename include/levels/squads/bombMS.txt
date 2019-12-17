@@ -1,0 +1,16 @@
+190 20
+40 20 8
+
+5
+Fapp Fmax
+2 40 15
+vWave vWave 
+1 30 17
+Rfull Rfull
+20 300 200
+Rmax Rmax
+100 1000 600
+Reff Reff
+5 50 40
+
+0 18

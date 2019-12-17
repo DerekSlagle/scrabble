@@ -1,0 +1,20 @@
+186 20
+40 20 8
+
+7
+Yg ground
+300 900 500
+Yh horizon
+0 500 200
+xMax xMax
+500 5000 2000
+yMax yMax
+100 2000 500
+dYh maxZ
+1.0 100 50
+sensXZ moveXZ
+0.05 0.5 0.1
+sensY moveY
+0.5 8 3
+
+0 18

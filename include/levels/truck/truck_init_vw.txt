@@ -1,0 +1,14 @@
+images/cars/VW-no-wheels.png
+images/cars/wheelHankook19inch.png
+1.0 0.2
+
+600 640
+300 100
+160 80
+-200 80
+58
+
+1000 0.15
+5.0 5.0
+
+L

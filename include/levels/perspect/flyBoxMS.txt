@@ -1,0 +1,20 @@
+230 20
+40 20 8
+
+7
+posX posX
+-1000 1000 0
+posY posY
+-500 500 0
+posZ posZ
+1000 5000 2000
+velX velX
+-10 10 0
+velY velY
+-10 10 0
+velZ velZ
+-50 50 0
+grav gravity
+-1 1 0
+
+0 18

@@ -1,0 +1,14 @@
+images/cars/2018-malibu.png
+images/cars/wheelHankook19inch.png
+0.55 0.2
+
+600 640
+300 240
+234 84
+-154 90
+56
+
+1000 0.15
+5.0 5.0
+
+R

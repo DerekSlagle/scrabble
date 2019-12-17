@@ -1,0 +1,17 @@
+160 20
+40 20 10
+
+4
+Csp spring
+0.01 0.3 0.1
+
+damp damping
+0.01 0.3 0.1
+
+mass mass
+0.5 5.0 1.0
+
+Grav gravity
+-0.3 0.3 0.0
+
+0 18

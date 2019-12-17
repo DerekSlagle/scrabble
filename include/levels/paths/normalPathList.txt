@@ -1,0 +1,8 @@
+include/leg_types/paths/ovala.txt  ovala  N
+include/leg_types/paths/fig8no_e.txt  fig8 N
+include/leg_types/paths/double_D.txt  dblD N
+include/leg_types/paths/fig8a.txt  fig8a N
+include/leg_types/paths/ovalVert.txt  ovalV N
+include/leg_types/paths/triangleA.txt  tri N
+include/leg_types/paths/circleA.txt  circle N
+include/leg_types/paths/singleOpen.txt  Line N
